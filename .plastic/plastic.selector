@@ -1,0 +1,4 @@
+repository "xr example@cola_wang@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
