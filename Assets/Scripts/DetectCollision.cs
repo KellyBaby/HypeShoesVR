@@ -26,22 +26,22 @@ public class DetectCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "XR Origin")
-        {
+        // if (other.gameObject.name == "XR Origin")
+        // {
             uiScreen.SetActive(true);
-            if (gameObject.name == "Goal")
-            {
-                // reached the goal point
-                textObject.text = "You Win";
-            }
-            else
-            {
+            // if (gameObject.name == "Goal")
+            // {
+            //     // reached the goal point
+            //     textObject.text = "You Win";
+            // }
+            // else
+            // {
                 // hit the obstacle
                 textObject.text = "You Lose";
-            }
+            // }
 
 
-        }
+        // }
         // Debug.Log("trigger World");
         print(other.gameObject.name);
         // throw new NotImplementedException();

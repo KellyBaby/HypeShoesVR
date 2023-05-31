@@ -19,6 +19,7 @@ public class RotateSpaceship : MonoBehaviour
         // Get the transform components of the game objects
         Transform sourceTransform = playerObject.transform;
         Transform targetTransform = gameObject.transform;
+        
 
         // Get the current y rotation of the source object
         float yRotation = sourceTransform.rotation.eulerAngles.y;
